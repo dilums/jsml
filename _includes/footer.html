@@ -1,0 +1,14 @@
+<footer class="page-footer font-small blue mt-3" id="footer">
+    <div class="footer-copyright text-center py-2">© 2018 
+        <a href="mailto:dilumsanjaya@gmail.com" id="status"> dilumsanjaya@gmail.com</a>
+    </div>
+</footer>
+<script>
+    window.addEventListener( 'resize', position_footer, false );
+    function position_footer() {
+        let min_h = window.innerHeight - 142;
+        $('main').css('min-height', `${min_h}px`);
+        
+    }
+    position_footer();
+</script>
